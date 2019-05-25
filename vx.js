@@ -8,16 +8,16 @@ function clean(text) {
         return text;
 }
 
-var prefix = "v";
-var token = " ";
+var prefix = ".";
+var token = "NTgxOTkwNzA5MDIwODUyMjkw.XOnT4g.AvO2Tz_iofCmxlJqqRkoY05Q30Q";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`vhelp / vnew | ${client.guilds.size} servers`);
+  client.user.setGame(`.help / .new | ${client.guilds.size} servers`);
 });
 
 client.on("guildCreate", (guild) => {
-client.user.setGame(`vhelp / vnew | ${client.guilds.size} servers`);
+client.user.setGame(`.help / .new | ${client.guilds.size} servers`);
     guild.owner.user.send(`Hello! I'm Vulnix!\nThanks for adding me to your guild!\n\nView all of my commands with \`vhelp\`.\nLearn more about me with \`vabout\`.\n\n**About:**Vulnix is a simple Discord support ticket bot that aims to provide easy to use mod and support functions for all servers!\n\n\Enjoy! ~Vulnix Teamn\*Need help? Wanna chill?*  Join the Vulnix Discord! https://discord.gg/HqNPFTC`);
 });
 
@@ -90,4 +90,4 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 
 });
 
-client.login(token);
+client.login(NTgxOTkwNzA5MDIwODUyMjkw.XOnT4g.AvO2Tz_iofCmxlJqqRkoY05Q30Q);
